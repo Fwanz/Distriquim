@@ -1,0 +1,16 @@
+#.htaccess Feet & Shoes
+AddDefaultCharset utf-8
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+#ESTO HACE QUE "INICIO" -> index.php
+RewriteRule ^home$ index.php [NC,L]
+
+#ESTO QUITA LA EXTENSIÓN *.PHP
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ $1.php [NC,L,DPI]
+
+</IfModule>
