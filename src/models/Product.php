@@ -1,82 +1,139 @@
 <?php
 
 // src/Product.php
+
 /**
- * @Entity @Table(name="productos")
+ * @Entity @Table(name="products")
  * */
-class Product {
+class Product
+{
 
     /** @Id @Column(type="integer") @GeneratedValue * */
     protected $id;
 
     /** @Column(type="string") * */
-    protected $nombre;
-    
-    /** @Column(type="string") * */
-    protected $marca;
-    
-    /** @Column(type="string") * */
-    protected $categoria;
-    
-    /** @Column(type="string") * */
-    protected $subcategoria;
-    
-    /** @Column(type="string") * */
-    protected $hoja_tecnica;
-    
-    /** @Column(type="string") * */
-    protected $hoja_securidad;
+    protected $name;
 
-    public function getId() {
+    /** @Column(type="string") * */
+    protected $brand;
+
+    /** @Column(type="string") * */
+    protected $category;
+
+    /** @Column(type="string") * */
+    protected $subcategory;
+
+    /** @Column(type="string") * */
+    protected $technical_sheet;
+
+    /** @Column(type="string") * */
+    protected $security_sheet;
+
+//    /** @Column(type="timestamp") * */
+//    protected $created_at;
+//
+//    /** @Column(type="timestamp") * */
+//    protected $updated_at;
+
+    public function getId()
+    {
         return $this->id;
     }
 
-    public function getNombre() {
-        return $this->nombre;
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
     }
 
-    public function setNombre($nombre) {
-        $this->nombre = $nombre;
-    }
-    
-    public function getMarca() {
-        return $this->marca;
-    }
-
-    public function setMarca($marca) {
-        $this->marca = $marca;
-    }
-    
-    public function getCategoria() {
-        return $this->categoria;
+    /**
+     * @param mixed $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
     }
 
-    public function setCategoria($categoria) {
-        $this->categoria = $categoria;
-    }
-    
-    public function getSubcategoria() {
-        return $this->subcategoria;
-    }
-
-    public function setSubcategoria($subcategoria) {
-        $this->subcategoria = $subcategoria;
-    }
-    
-    public function getHojaTectica() {
-        return $this->hoja_tecnica;
+    /**
+     * @return mixed
+     */
+    public function getBrand()
+    {
+        return $this->brand;
     }
 
-    public function setHojaTecnica($hoja_tecnica) {
-        $this->hoja_tecnica = $hoja_tecnica;
-    }
-    
-    public function getHojaSeguridad() {
-        return $this->hoja_securidad;
+    /**
+     * @param mixed $brand
+     */
+    public function setBrand($brand)
+    {
+        $this->brand = $brand;
     }
 
-    public function setHojaSeguridad($hoja_seguridad) {
-        $this->hoja_securidad = $hoja_seguridad;
+    /**
+     * @return mixed
+     */
+    public function getCategory()
+    {
+        return $this->category;
+    }
+
+    /**
+     * @param mixed $category
+     */
+    public function setCategory($category)
+    {
+        $this->category = $category;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSubcategory()
+    {
+        return $this->subcategory;
+    }
+
+    /**
+     * @param mixed $subcategory
+     */
+    public function setSubcategory($subcategory)
+    {
+        $this->subcategory = $subcategory;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTechnicalSheet()
+    {
+        return $this->technical_sheet;
+    }
+
+    /**
+     * @param mixed $technical_sheet
+     */
+    public function setTechnicalSheet($technical_sheet)
+    {
+        $this->technical_sheet = $technical_sheet;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSecuritySheet()
+    {
+        return $this->security_sheet;
+    }
+
+    /**
+     * @param mixed $security_sheet
+     */
+    public function setSecuritySheet($security_sheet)
+    {
+        $this->security_sheet = $security_sheet;
     }
 
 }
