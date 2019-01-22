@@ -24,6 +24,15 @@
     {
        return $this->productRepository->findAll();
     }
+
+    public function findById(int $id){
+      return $this->productRepository->find($id);
+    }
+
+    public function findBy(array $params)
+    {
+      return $this->productRepository->findBy($params);
+    }
   }
 
  ?>
