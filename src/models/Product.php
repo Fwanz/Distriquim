@@ -136,4 +136,12 @@ class Product
         $this->security_sheet = $security_sheet;
     }
 
+    /**
+     * @return mixed
+    public function getProductBySubcat($brand,$subcategory)
+    {
+        return $this->name;
+    }
+     */
+
 }

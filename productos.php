@@ -40,18 +40,21 @@ include_once('./assets/resources.php');
                         <img src="images/logos/kronos.png" />
                         <figcaption>Dióxido de Titanio</figcaption>
                     </div>
+                    <a href="producto?marca=kronos"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/byk.png" />
                         <figcaption>Aditivos para Recubrimientos, Tintas y Plásticos</figcaption>
                     </div>
+                    <a href="producto?marca=byk"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/eckart.png" />
                         <figcaption>Pigmentos Metálicos</figcaption>
                     </div>
+                    <a href="producto?marca=eckart"></a>
                 </figure>
             </section>
 
@@ -62,18 +65,21 @@ include_once('./assets/resources.php');
                             <img src="images/logos/chromaflo.png" />
                             <figcaption>Dispersiones Acuosas de Pigmentos</figcaption>
                         </div>
+                        <a href="producto?marca=chromaflo"></a>
                     </figure>
                     <figure class="col s12 m4 v-flex">
                         <div>
                             <img src="images/logos/reverte.png" />
                             <figcaption>Oxo-biodegradables</figcaption>
                         </div>
+                        <a href="producto?marca=reverte"></a>
                     </figure>
                     <figure class="col s12 m4 v-flex">
                         <div>
                             <img src="images/logos/yillong.png" />
                             <figcaption>Hidroxietilcelulosa</figcaption>
                         </div>
+                        <a href="producto?marca=yil%20long"></a>
                     </figure>
             </section>
 
@@ -83,18 +89,21 @@ include_once('./assets/resources.php');
                         <img src="images/logos/sili.png" />
                         <figcaption>Perlas de Vidrio para Molinos</figcaption>
                     </div>
+                    <a href="producto?marca=sigmund%20linder"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/potters.png" />
                         <figcaption>Microesferas Huecas de Borosilicato de Sodio</figcaption>
                     </div>
+                    <a href="producto?marca=potters"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/perstorp.png" />
                         <figcaption>Agente Coalescente</figcaption>
                     </div>
+                    <a href="producto?marca=perstorp"></a>
                 </figure>
             </section>
         </main>

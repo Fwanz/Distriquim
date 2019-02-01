@@ -16,7 +16,7 @@ $conn = array(
     'driver' => 'pdo_mysql',
     'user' => 'root',
     'password' => '',
-    'dbname' => 'db_test',
+    'dbname' => 'db_distriquim',
 );
 
 // obtaining the entity manager

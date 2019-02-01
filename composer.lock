@@ -218,6 +218,7 @@
         },
         {
             "name": "doctrine/common",
+<<<<<<< Updated upstream
             "version": "v2.10.0",
             "source": {
                 "type": "git",
@@ -228,6 +229,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/common/zipball/30e33f60f64deec87df728c02b107f82cdafad9d",
                 "reference": "30e33f60f64deec87df728c02b107f82cdafad9d",
+=======
+            "version": "v2.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common.git",
+                "reference": "a210246d286c77d2b89040f8691ba7b3a713d2c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/a210246d286c77d2b89040f8691ba7b3a713d2c1",
+                "reference": "a210246d286c77d2b89040f8691ba7b3a713d2c1",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -237,7 +250,11 @@
                 "doctrine/event-manager": "^1.0",
                 "doctrine/inflector": "^1.0",
                 "doctrine/lexer": "^1.0",
+<<<<<<< Updated upstream
                 "doctrine/persistence": "^1.1",
+=======
+                "doctrine/persistence": "^1.0",
+>>>>>>> Stashed changes
                 "doctrine/reflection": "^1.0",
                 "php": "^7.1"
             },
@@ -250,7 +267,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< Updated upstream
                     "dev-master": "2.10.x-dev"
+=======
+                    "dev-master": "2.9.x-dev"
+>>>>>>> Stashed changes
                 }
             },
             "autoload": {
@@ -288,6 +309,7 @@
                     "email": "ocramius@gmail.com"
                 }
             ],
+<<<<<<< Updated upstream
             "description": "PHP Doctrine Common project is a library that provides additional functionality that other Doctrine projects depend on such as better reflection support, persistence interfaces, proxies, event system and much more.",
             "homepage": "https://www.doctrine-project.org/projects/common.html",
             "keywords": [
@@ -309,6 +331,31 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/dbal/zipball/22800bd651c1d8d2a9719e2a3dc46d5108ebfcc9",
                 "reference": "22800bd651c1d8d2a9719e2a3dc46d5108ebfcc9",
+=======
+            "description": "Common Library for Doctrine projects",
+            "homepage": "https://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "collections",
+                "eventmanager",
+                "persistence",
+                "spl"
+            ],
+            "time": "2018-07-12T21:16:12+00:00"
+        },
+        {
+            "name": "doctrine/dbal",
+            "version": "v2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "5140a64c08b4b607b9bedaae0cedd26f04a0e621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/5140a64c08b4b607b9bedaae0cedd26f04a0e621",
+                "reference": "5140a64c08b4b607b9bedaae0cedd26f04a0e621",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -318,10 +365,18 @@
                 "php": "^7.1"
             },
             "require-dev": {
+<<<<<<< Updated upstream
                 "doctrine/coding-standard": "^5.0",
                 "jetbrains/phpstorm-stubs": "^2018.1.2",
                 "phpstan/phpstan": "^0.10.1",
                 "phpunit/phpunit": "^7.4",
+=======
+                "doctrine/coding-standard": "^4.0",
+                "jetbrains/phpstorm-stubs": "^2018.1.2",
+                "phpstan/phpstan": "^0.10.1",
+                "phpunit/phpunit": "^7.1.2",
+                "phpunit/phpunit-mock-objects": "!=3.2.4,!=3.2.5",
+>>>>>>> Stashed changes
                 "symfony/console": "^2.0.5|^3.0|^4.0",
                 "symfony/phpunit-bridge": "^3.4.5|^4.0.5"
             },
@@ -334,13 +389,22 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< Updated upstream
                     "dev-master": "2.9.x-dev",
+=======
+                    "dev-master": "2.8.x-dev",
+>>>>>>> Stashed changes
                     "dev-develop": "3.0.x-dev"
                 }
             },
             "autoload": {
+<<<<<<< Updated upstream
                 "psr-4": {
                     "Doctrine\\DBAL\\": "lib/Doctrine/DBAL"
+=======
+                "psr-0": {
+                    "Doctrine\\DBAL\\": "lib/"
+>>>>>>> Stashed changes
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -365,6 +429,7 @@
                     "email": "jonwage@gmail.com"
                 }
             ],
+<<<<<<< Updated upstream
             "description": "Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.",
             "homepage": "https://www.doctrine-project.org/projects/dbal.html",
             "keywords": [
@@ -378,6 +443,17 @@
                 "queryobject"
             ],
             "time": "2018-12-31T03:27:51+00:00"
+=======
+            "description": "Database Abstraction Layer",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "dbal",
+                "persistence",
+                "queryobject"
+            ],
+            "time": "2018-07-13T03:16:35+00:00"
+>>>>>>> Stashed changes
         },
         {
             "name": "doctrine/event-manager",
@@ -630,6 +706,7 @@
         },
         {
             "name": "doctrine/orm",
+<<<<<<< Updated upstream
             "version": "v2.6.3",
             "source": {
                 "type": "git",
@@ -640,6 +717,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/orm/zipball/434820973cadf2da2d66e7184be370084cc32ca8",
                 "reference": "434820973cadf2da2d66e7184be370084cc32ca8",
+=======
+            "version": "v2.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/doctrine2.git",
+                "reference": "d2b4dd71d2a276edd65d0c170375b445f8a4a4a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/d2b4dd71d2a276edd65d0c170375b445f8a4a4a8",
+                "reference": "d2b4dd71d2a276edd65d0c170375b445f8a4a4a8",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -708,6 +797,7 @@
                 "database",
                 "orm"
             ],
+<<<<<<< Updated upstream
             "time": "2018-11-20T23:46:46+00:00"
         },
         {
@@ -722,6 +812,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/persistence/zipball/c0f1c17602afc18b4cbd8e1c8125f264c9cf7d38",
                 "reference": "c0f1c17602afc18b4cbd8e1c8125f264c9cf7d38",
+=======
+            "time": "2018-07-12T20:47:13+00:00"
+        },
+        {
+            "name": "doctrine/persistence",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/persistence.git",
+                "reference": "af1ec238659a83e320f03e0e454e200f689b4b97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/af1ec238659a83e320f03e0e454e200f689b4b97",
+                "reference": "af1ec238659a83e320f03e0e454e200f689b4b97",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -733,17 +839,28 @@
                 "php": "^7.1"
             },
             "conflict": {
+<<<<<<< Updated upstream
                 "doctrine/common": "<2.10@dev"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^5.0",
+=======
+                "doctrine/common": "<2.9@dev"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^4.0",
+>>>>>>> Stashed changes
                 "phpstan/phpstan": "^0.8",
                 "phpunit/phpunit": "^7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< Updated upstream
                     "dev-master": "1.1.x-dev"
+=======
+                    "dev-master": "1.0.x-dev"
+>>>>>>> Stashed changes
                 }
             },
             "autoload": {
@@ -781,6 +898,7 @@
                     "email": "ocramius@gmail.com"
                 }
             ],
+<<<<<<< Updated upstream
             "description": "The Doctrine Persistence project is a set of shared interfaces and functionality that the different Doctrine object mappers share.",
             "homepage": "https://doctrine-project.org/projects/persistence.html",
             "keywords": [
@@ -791,6 +909,14 @@
                 "persistence"
             ],
             "time": "2018-11-21T00:33:13+00:00"
+=======
+            "description": "Doctrine Persistence abstractions.",
+            "homepage": "https://doctrine-project.org/projects/persistence.html",
+            "keywords": [
+                "persistence"
+            ],
+            "time": "2018-07-12T12:37:50+00:00"
+>>>>>>> Stashed changes
         },
         {
             "name": "doctrine/reflection",
@@ -869,6 +995,7 @@
         },
         {
             "name": "symfony/console",
+<<<<<<< Updated upstream
             "version": "v4.2.2",
             "source": {
                 "type": "git",
@@ -879,11 +1006,26 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/b0a03c1bb0fcbe288629956cf2f1dd3f1dc97522",
                 "reference": "b0a03c1bb0fcbe288629956cf2f1dd3f1dc97522",
+=======
+            "version": "v4.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "432122af37d8cd52fba1b294b11976e0d20df595"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/432122af37d8cd52fba1b294b11976e0d20df595",
+                "reference": "432122af37d8cd52fba1b294b11976e0d20df595",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3",
+<<<<<<< Updated upstream
                 "symfony/contracts": "^1.0",
+=======
+>>>>>>> Stashed changes
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "conflict": {
@@ -907,7 +1049,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< Updated upstream
                     "dev-master": "4.2-dev"
+=======
+                    "dev-master": "4.1-dev"
+>>>>>>> Stashed changes
                 }
             },
             "autoload": {
@@ -934,6 +1080,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+<<<<<<< Updated upstream
             "time": "2019-01-04T15:13:53+00:00"
         },
         {
@@ -1003,6 +1150,9 @@
                 "standards"
             ],
             "time": "2018-12-05T08:06:11+00:00"
+=======
+            "time": "2018-10-31T09:30:44+00:00"
+>>>>>>> Stashed changes
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1123,6 +1273,7 @@
         },
         {
             "name": "symfony/yaml",
+<<<<<<< Updated upstream
             "version": "v2.8.49",
             "source": {
                 "type": "git",
@@ -1133,6 +1284,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/02c1859112aa779d9ab394ae4f3381911d84052b",
                 "reference": "02c1859112aa779d9ab394ae4f3381911d84052b",
+=======
+            "version": "v2.8.47",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "0e16589861f192dbffb19b06683ce3ef58f7f99d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0e16589861f192dbffb19b06683ce3ef58f7f99d",
+                "reference": "0e16589861f192dbffb19b06683ce3ef58f7f99d",
+>>>>>>> Stashed changes
                 "shasum": ""
             },
             "require": {
@@ -1169,7 +1332,11 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+<<<<<<< Updated upstream
             "time": "2018-11-11T11:18:13+00:00"
+=======
+            "time": "2018-10-02T16:27:16+00:00"
+>>>>>>> Stashed changes
         }
     ],
     "packages-dev": [],

@@ -337,6 +337,20 @@ body{
     padding-bottom: 70%;
 }
 
+#products figure a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: calc(100% + 1px);
+}
+
+#products figure a:hover{
+    background: rgba(0,0,0,.1);
+    background-blend-mode: multiply;
+}
+
 #products figcaption{
     font-style: italic;
     max-width: 20rem;
@@ -373,7 +387,7 @@ body{
 #sub-menu li{
     flex: 1 1 auto;
     border-right: solid 1px #CCCCCC;
-    border-bottom: solid 1px #CCCCCC;
+    height: 100%;
 }
 
 #sub-menu li:last-child{
@@ -394,8 +408,9 @@ body{
     text-align: center;
 }
 
-#sub-menu a:hover img, #sub-menu a.active{
+#sub-menu a:hover img, #sub-menu a.active img{
     filter: none;
+    -webkit-filter: none;
 }
 
 #product-menu a{
@@ -409,7 +424,7 @@ body{
     transition: .3s;
 }
 
-#product-menu a:hover{
+#product-menu a:hover, #product-menu a.active{
     color: #000;
 }
 
