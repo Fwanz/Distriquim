@@ -53,4 +53,11 @@
                 $('.sub-menu').on('mouseover', function () {
                 });
             });
+
+            function showContact() {
+                $('html,body').animate({
+                 scrollTop: $("#footer").offset().top
+                 },
+                 'slow');
+            }
         </script>

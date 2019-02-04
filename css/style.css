@@ -9,11 +9,11 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
+    font-size: 13px;
 }
 
 body {
     margin: 0;
-    font-size: 16px;
 }
 
 iframe {
@@ -193,6 +193,10 @@ body{
     position: relative;
 }
 
+#header ul li a.active{
+    font-weight: 700;
+}
+
 #header ul li a:hover{
     background: none;
 }
@@ -308,6 +312,39 @@ body{
 }
 
 
+/* About */
+
+#about h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0 0 2rem;
+}
+
+#about p{
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin: 0 0 ;
+    text-align: justify;
+}
+
+#about #us{
+    border-bottom: solid 1px #CCCCCC;
+}
+
+#about #values{
+    border-right: solid 1px #CCCCCC;
+    padding-right: 3.5rem;
+}
+
+#about #vision{
+    padding-left: 3.5rem;
+}
+
+#about .col{
+    padding: 4rem;
+}
+
+
 /* Products */
 
 
@@ -373,6 +410,10 @@ body{
 
 
 /* PRODUCT */
+
+#product{
+    min-height: 33.75rem;
+}
 
 #sub-menu{
     height: 10rem;

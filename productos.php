@@ -3,7 +3,7 @@
 //
 //Set values for page
 $page_title = "";
-$current_page = "home";
+$current_page = "products";
 
 //Load Mobile Flag
 include_once('./assets/m.flag.php');
@@ -40,21 +40,21 @@ include_once('./assets/resources.php');
                         <img src="images/logos/kronos.png" />
                         <figcaption>Dióxido de Titanio</figcaption>
                     </div>
-                    <a href="producto?marca=kronos"></a>
+                    <a href="producto?marca=kronos&categoria=pinturas%20y%20recubrimientos"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/byk.png" />
                         <figcaption>Aditivos para Recubrimientos, Tintas y Plásticos</figcaption>
                     </div>
-                    <a href="producto?marca=byk"></a>
+                    <a href="producto?marca=byk&categoria=desairante"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/eckart.png" />
                         <figcaption>Pigmentos Metálicos</figcaption>
                     </div>
-                    <a href="producto?marca=eckart"></a>
+                    <a href="producto?marca=eckart&categoria=bronce%20en%20polvo"></a>
                 </figure>
             </section>
 
@@ -65,21 +65,21 @@ include_once('./assets/resources.php');
                             <img src="images/logos/chromaflo.png" />
                             <figcaption>Dispersiones Acuosas de Pigmentos</figcaption>
                         </div>
-                        <a href="producto?marca=chromaflo"></a>
+                        <a href="producto?marca=chromaflo&categoria=dispersiones%20acuosas%20de%20pigmentos"></a>
                     </figure>
                     <figure class="col s12 m4 v-flex">
                         <div>
                             <img src="images/logos/reverte.png" />
                             <figcaption>Oxo-biodegradables</figcaption>
                         </div>
-                        <a href="producto?marca=reverte"></a>
+                        <a href="producto?marca=reverte&categoria=oxo-biodegradables"></a>
                     </figure>
                     <figure class="col s12 m4 v-flex">
                         <div>
                             <img src="images/logos/yillong.png" />
                             <figcaption>Hidroxietilcelulosa</figcaption>
                         </div>
-                        <a href="producto?marca=yil%20long"></a>
+                        <a href="producto?marca=yil%20long&categoria=espesante%20celulosico"></a>
                     </figure>
             </section>
 
@@ -89,21 +89,21 @@ include_once('./assets/resources.php');
                         <img src="images/logos/sili.png" />
                         <figcaption>Perlas de Vidrio para Molinos</figcaption>
                     </div>
-                    <a href="producto?marca=sigmund%20linder"></a>
+                    <a href="producto?marca=sigmund%20linder&categoria=perlas%20de%20circonio"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/potters.png" />
                         <figcaption>Microesferas Huecas de Borosilicato de Sodio</figcaption>
                     </div>
-                    <a href="producto?marca=potters"></a>
+                    <a href="producto?marca=potters&categoria=microesferas%20huecas"></a>
                 </figure>
                 <figure class="col s12 m4 v-flex">
                     <div>
                         <img src="images/logos/perstorp.png" />
                         <figcaption>Agente Coalescente</figcaption>
                     </div>
-                    <a href="producto?marca=perstorp"></a>
+                    <a href="producto?marca=perstorp&categoria=agente%20coalescente"></a>
                 </figure>
             </section>
         </main>

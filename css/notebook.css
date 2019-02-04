@@ -4,3 +4,7 @@ html{
 
 .wrapper{
 }
+
+#product{
+    min-height: 45.75rem;
+}
