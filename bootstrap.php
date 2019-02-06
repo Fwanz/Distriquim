@@ -14,8 +14,9 @@ $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__ . "/src/mod
 // database configuration parameters
 $conn = array(
     'driver' => 'pdo_mysql',
-    'user' => 'root',
-    'password' => '',
+    'host' => 'hacemosmarcacom1.powwebmysql.com',
+    'user' => 'partner',
+    'password' => 'dev42537426',
     'dbname' => 'db_distriquim',
 );
 

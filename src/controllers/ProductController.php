@@ -1,7 +1,5 @@
 <?php
 
-namespace Controllers;
-
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Query\QueryException;
 

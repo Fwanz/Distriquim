@@ -1,11 +1,9 @@
-<?php 
+<?php
 
-	function __autoload($class_name) {
-	  require_once $class_name . '.php';
-	}
+include 'controllers/ProductController.php';
 
-	require_once "./bootstrap.php";
+require_once "./bootstrap.php";
 
-	$productController = new Controllers\ProductController($entityManager);
+//echo json_encode($entityManager->getConnection());
 
-?>
+$productController = new ProductController($entityManager);
